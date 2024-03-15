@@ -1,0 +1,37 @@
+.button {
+  background-color: #ed4c5c;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  width: 16rem;
+  white-space: nowrap;
+  text-decoration: none;
+
+  &[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.primary {
+  background-color: #ed4c5c;
+  color: white;
+}
+
+.secondary {
+  background-color: #f2f2f2;
+  color: #ed4c5c;
+}
